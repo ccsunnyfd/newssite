@@ -7,7 +7,9 @@ img {
 	max-width: 100%;
 }
 
-img, .side-bar .list-group-item {
+img,
+.side-bar .list-group-item,
+.side-bar-card {
 	border-radius: 6px;
 }
 
@@ -64,4 +66,43 @@ img, .side-bar .list-group-item {
 	width: 15px;
 	height: 15px;
 	margin-right: 5px;
+}
+
+.side-bar-card {
+	background: rgba(0, 0, 0, .05);
+	margin-top: 15px;
+	padding: 10px 0;
+}
+
+.side-bar-card.flag {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.side-bar-card .text-lg {
+	font-size: 150%;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .list .item {
+	padding: 10px 15px;
+}
+
+.side-bar-card .card-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.side-bar-card .card-body .list .item:hover {
+	background: rgba(0, 0, 0, .05);
+}
+
+.card-body .list .item .title {
+	padding-bottom: 5px;
+}
+
+.card-body .list .item .desc {
+	color: #999;
 }
